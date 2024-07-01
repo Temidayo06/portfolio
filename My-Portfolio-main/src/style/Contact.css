@@ -1,0 +1,153 @@
+/* Contact styling */
+
+@media (min-width:1200px){
+    input[type="text"]{
+        width: 450px;
+        border: 2px solid rgba(0, 0, 0, 0.381);
+        height: 70%;
+    }
+    input[type="email"]{
+        width: 450px;
+        border: 2px solid rgba(0, 0, 0, 0.381);
+        height: 70%;
+    }
+    input[type="phone"]{
+        width: 450px;
+        border: 2px solid rgba(0, 0, 0, 0.381);
+        height: 70%;
+    }
+    input[type="checkbox"]{
+       border-color: rgba(0, 0, 0, 0.601);
+        
+    }
+    
+    textarea{
+        border-radius: 5px;
+        padding: 15px;
+        resize: none !important;
+        
+    }
+    
+    .form-btn{
+        background-color:  rgba(94, 59, 238, 1);
+        border: none;
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+}
+
+/* tablet screen */
+@media (max-width:1199px){
+    input[type="text"]{
+        min-width: 350px;
+        border: 2px solid rgba(0, 0, 0, 0.381);
+        height: 70%;
+    }
+    input[type="email"]{
+        min-width: 350px;
+        border: 2px solid rgba(0, 0, 0, 0.381);
+        height: 70%;
+    }
+    input[type="phone"]{
+        min-width: 350px;
+        border: 2px solid rgba(0, 0, 0, 0.381);
+        height: 70%;
+    }
+    input[type="checkbox"]{
+       border-color: rgba(0, 0, 0, 0.601);
+        
+    }
+    
+    textarea{
+        border-radius: 5px;
+        padding: 15px;
+        resize: none !important;
+        
+    }
+    
+    .form-btn{
+        background-color:  rgba(94, 59, 238, 1);
+        border: none;
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+}
+
+
+
+
+/* mobile screen*/
+@media (max-width:767px){
+    input[type="text"]{
+        max-width: 350px;
+        border: 2px solid rgba(0, 0, 0, 0.381);
+        height: 70%;
+    }
+    input[type="email"]{
+        max-width: 350px;
+        border: 2px solid rgba(0, 0, 0, 0.381);
+        height: 70%;
+    }
+    input[type="phone"]{
+        max-width: 350px;
+        border: 2px solid rgba(0, 0, 0, 0.381);
+        height: 70%;
+    }
+    input[type="checkbox"]{
+       border-color: rgba(0, 0, 0, 0.601);
+        
+    }
+    
+    textarea{
+        border-radius: 5px;
+        padding: 15px;
+        resize: none !important;
+        
+    }
+    
+    .form-btn{
+        background-color:  rgba(94, 59, 238, 1);
+        border: none;
+        color: white;
+        padding: 15px;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    input[type="text"],
+    input[type="email"],
+    input[type="phone"],
+    textarea,
+    .form-btn {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+
+/* smaller screen */
+@media (max-width: 320px) {
+    input[type="text"],
+    input[type="email"],
+    input[type="phone"],
+    textarea,
+    .form-btn {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    textarea {
+        height: 100px;
+    }
+
+    .form-btn {
+        font-size: 16px;
+        padding: 8px;
+    }
+}
